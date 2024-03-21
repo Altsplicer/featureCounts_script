@@ -73,16 +73,27 @@ for FILE in `find ${DATA_DIR} -name \*`; do
 done
 ```
 -p Specify that input data contain paired-end reads.
+
 -f Perform read counting at feature level (eg. counting reads for exons rather than genes).
+
 -t  Specify feature type(s) in a GTF annotation, 'exon' by default.
+
 -g Specify attribute type in GTF annotation. 'gene_id' by default.
--O Assign reads to all their overlapping meta-features  
+
+-O Assign reads to all their overlapping meta-features.
+
 -T Number of the threads. 1 by default.
+
 -s Perform strand-specific read counting.Possible values include: 0 (unstranded), 1 (stranded) and 2 (reversely stranded).
+
 -J Count number of reads supporting each exon-exon junction.
+
 -M  Multi-mapping reads will also be counted.
+
 -a Name and location of an annotation file.
+
 -o Output directory location
+
 $FILE refers to the files to be analyzed
 
 # Please note if any of these commands are not sent in as slurm job but done in the terminal then you need to be in a interactive node, NOT THE LOGIN NODE! You will get in trouble with UCI's HPC staff. 
