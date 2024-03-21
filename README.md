@@ -1,5 +1,6 @@
 # [Franco](https://github.com/altsplicer) / [***featureCounts***]
 
+Script [LINK](https://github.com/Altsplicer/featureCounts_script/blob/main/bash/featurecounts.sub)
 
 ## Overview
 This a script used for bam files to obtain gene counts using the featureCounts command in the subread package.
