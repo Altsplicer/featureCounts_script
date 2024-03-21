@@ -1,4 +1,4 @@
-# [Franco](https://github.com/altsplicer) / [***featureCounts**]
+# [Franco](https://github.com/altsplicer) / [***featureCounts***]
 
 
 ## Overview
